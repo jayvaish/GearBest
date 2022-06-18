@@ -143,9 +143,7 @@ img{
     line-height: 18px;
     margin-left: 90px;
 }
-.footer_quality_item{
-    /* border: 1px solid red; */
-}
+
 #footer_subs{
     margin-top: 50px;
    
@@ -211,10 +209,8 @@ outline: none;
 /* social-sites */
 #social{
     float: right;
-   
    width: 550px;
-    text-align: right;
-    
+    text-align: right;   
 }
 /* anchor tags of social-sites */
 
