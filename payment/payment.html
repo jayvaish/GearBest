@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./payment.css">
+</head>
+
+<body>
+    <div id="logo">
+
+        <img src="data:image/jpeg;base64,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"
+            alt="">
+
+        <div id="border">
+            <div id="div1">
+                <div class="payment">
+                    <h1>Payment Methods(s)</h1>
+                </div>
+
+                <div id="visa">
+                    <input id="radio" type="radio">
+                    <img class="card" src="https://uidesign.zafcdn.com/ZF/image/5376/20210323_visa.png" alt="">
+                    <img class="card" src="https://uidesign.zafcdn.com/ZF/image/checkout/20190816_12066/mastercard.png"
+                        alt="">
+                    <img class="card" src="https://uidesign.zafcdn.com/ZF/image/checkout/20190816_12066/discover.png"
+                        alt="">
+                    <img class="card" src="https://uidesign.zafcdn.com/ZF/image/checkout/20190816_12066/Diners-Club.png"
+                        alt="">
+                    <img class="card" src="https://uidesign.zafcdn.com/ZF/image/checkout/20190816_12066/maestro.png"
+                        alt="">
+
+                </div>
+                <form id="form">
+                    <input type="text" placeholder="Card Number" id="cardNum">
+
+                    <div class="select1">
+                        <select name="" class="tag">
+                            <option value="">Expiration Month</option>
+                            <option value="">01</option>
+                            <option value="">02</option>
+                            <option value="">03</option>
+                            <option value="">04</option>
+                            <option value="">05</option>
+                            <option value="">06</option>
+                            <option value="">07</option>
+                            <option value="">08</option>
+                            <option value="">09</option>
+                            <option value="">10</option>
+                            <option value="">11</option>
+                            <option value="">12</option>
+                        </select>
+                        <select name="" class="tag">
+                            <option value="">2023</option>
+                            <option value="">Expiration Year</option>
+                            <option value="">2024</option>
+                            <option value="">2025</option>
+                            <option value="">2026</option>
+                            <option value="">2027</option>
+                            <option value="">2028</option>
+                            <option value="">2029</option>
+                            <option value="">2030</option>
+                            <option value="">2031</option>
+                            <option value="">2032</option>
+                            <option value="">2033</option>
+                            <option value="">2034</option>
+                        </select>
+                    </div>
+                    <input type="text" placeholder="Security Code" id="cvv">
+                    <input type="text" placeholder="" value="Anu Pratap">
+                    <div class="bill">
+                        <div><span>
+                                <h2>Billing Address</h2>
+                                <h4>Edit</h4>
+                            </span></div>
+                        <p>Tollygunj,Kolkata,West Bengal, IN</p>
+                        <p>We recommend that the billing address you are submitting is the same as your card issuer has
+                            on file.</p>
+                    </div>
+                </form>
+                <div id="paypal">
+                    <input type="radio">
+                    <img src="https://uidesign.zafcdn.com/ZF/image/z_promo/20190422_9353/PayPal@2x.png" alt="">
+
+                </div>
+                <p>The safer easier way to pay</p>
+
+            </div>
+        </div>
+        <!-- /////END -->
+
+
+        <!-- 2ndpart -->
+
+        <div id="sideBorder">
+
+
+            <div id="div22">
+                <div id="pay">
+                    <div id="mybill">Your Bill:</div>
+                    <div id="order">
+                        <p>Order Number <br>22061600982912050242 <br>Shipping address <br> tollygunj, Kolkata, West
+                            Bengal, IN</p>
+
+                    </div>
+
+
+                    <!--<<<<<<<<<<<<<< Daynamic >>>>>>>>>>>>>>>>>>>>>>>-->
+                    <div class="grand">
+                        <p>Grand Total</p>
+                        <p id="price1">$116.00</p>
+                    </div>
+                    <!-- Daynamic<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>> -->
+                    <div class="grand">
+                        <p>Payable Amount</p>
+                        <p id="price2">$116.00</p>
+                    </div>
+                    <button id="btn" >PAY NOW</button>
+                </div>
+            </div>
+
+
+
+        </div>
+                         <!--Sec End -->
+
+
+        <!-- //lastpart -->
+
+        <div id="last">
+            <img src="https://uidesign.zafcdn.com/ZF/image/5376/20210408_gb_logos.png" alt="">
+            <p>Every order you place with us is completely safe and secure.</p>
+        </div>
+
+        <!--lastpart end -->
+</body>
+
+
+</html>
+
+<script>
+    var Form = document.querySelector('#form');
+var Button = document.querySelector('#btn');
+
+Button.addEventListener('click', function() {
+   if(Form.cardNum.value.length != 16) alert('Please enter a valid card number');
+   else if(Form.cvv.value.length != 3) alert('Wrong CVV');
+   else {
+      alert('Payment Successful, Your Order is Placed');
+      
+    //   window.location.href = 'index.html';
+   }
+})
+
+// let price1=document.querySelector("#price1")
+// price1.innerText=$
+// let price2=document.querySelector("#price2")
+// price2.innerText=$
+
+
+
+
+</script>
