@@ -20,4 +20,14 @@ var slideIndex = 0;
       document.querySelector("#container").addEventListener("click",function(){
         window.location.href="addToCart.html"
         // console.log("hello");
+        
       })
+
+      // var oldUser=JSON.parse(localStorage.getItem("userEmail"))
+// var Name=JSON.parse(localStorage.getItem("Information"))
+// console.log();
+// if (Name.userEmail!=="")
+// {
+//    document.querySelector(".SignInP").innerText="rajk";
+   
+// }

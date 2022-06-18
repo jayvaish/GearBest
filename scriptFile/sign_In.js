@@ -9,9 +9,8 @@
         let checkPassword=document.getElementById("checkPassword_In").value;
         
 
-        // newData=checkUser.filter(function(value){ same as line no 4
 
-            if ((checkEmail=="") ) 
+            if ((checkEmail=="") || (checkUser.userEmail!==checkEmail) ) 
             {
                 document.getElementById("emailError").innerText="Please enter a valid email address"
             }
@@ -32,9 +31,8 @@
             else if ((checkUser.userEmail==checkEmail) && (checkUser.createPass==checkPassword)) 
             {
                 alert("Sign In seccessfull")
-                // window.location.href="index.html"
-                form.reset() 
+                window.location.href="landing.html"
+                document.querySelector(".SignInP").innerHTML=`dffdfa` 
             } 
             
-        // });
 }
