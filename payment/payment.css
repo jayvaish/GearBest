@@ -1,0 +1,266 @@
+*{
+    margin:0px;
+    padding:0px;    
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#logo>img{
+    /* margin-top:-40px; */
+    height:80px;
+ 
+
+}
+#border{
+   padding:10px;
+    width:40%;
+    height:auto;
+    /* border:5px solid #999999; */
+  margin-top:10px;
+    margin-left:30px;
+   
+}
+/* 1 box */
+#div1{
+    width:90%;
+    height:auto;
+    /* border:1px solid #999999; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   margin-top:10px;
+   padding:20px;
+  
+ 
+}
+/* 2 payment */
+
+.payment{
+    width:93%;
+    height:20px;
+    /* border:1px solid#999999; */
+    padding:0px,0px,0px,20px;
+    margin-top:10px;
+}
+/* 3rd */
+#radio{
+    margin-top:-4px;
+    width:13px;
+    
+}
+
+#visa{
+    width:90%;
+    height:35px;
+    /* border:3px solid rgb(88, 221, 26); */
+    margin-top:20px;
+    display:flex;
+    
+}
+input+img+img {
+    margin-left:8px;
+}
+input+img+img+img {
+    margin-left:8px;
+}
+
+
+/* 
+.card{
+    display:flex;
+    width:94px;
+    height:15px;
+    margin-right:15px
+    /* border :2px solid blue; */
+/* } */ */
+
+
+#visa>  img{
+    width:30px;
+    height:30px;
+    display:inline;
+    margin-left:30px;
+
+}
+
+
+
+
+
+#form{
+    width:90%;
+    height: 320px;
+    border:1px solid#999999;
+    margin-top:20px;
+    padding:10px;
+}
+
+input{
+    display:block;
+    margin-top:18px;
+    width:80%;
+    height:35px;
+}
+.select1{
+    margin-top:4px;
+    padding:5px;
+   
+}.tag{
+    width:40%;
+    height:30px;
+}
+
+
+
+.bill{
+    width:90%;
+    height:23px;
+    /* border:1px solid purple; */
+    margin-top:15px;
+    font-size:14px;
+}
+span{
+    display:flex;
+    justify-content: space-between;
+    font-size:14px;
+}
+
+
+
+
+
+
+#last{
+ 
+    width:80%;
+    height:90px;
+    /* border:1px solid black; */
+    margin-top:20%;
+    margin-left:50px;
+   
+  
+}
+#last>img{
+    width:90%;
+
+}
+#last>img+p{
+    text-align: center;
+}
+h1{
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#paypal+p{
+    margin-top:60px;
+}
+
+.bill>p{
+    margin-top:10px
+}
+
+.bill>p+p{
+    color:#999999;
+    font-size: 13px;
+    margin-top:10px
+}
+#paypal{
+    width:90%;
+    height:50px;
+    /* border:5px solid teal; */
+    display:flex;
+    margin-top:20px;
+}
+
+#paypal>img{
+    width:55px;
+    height:45px;
+    margin-top:2px;
+    padding:2px;
+    margin-left:20px
+      
+     }
+
+     #paypal>input{
+        width:15px;
+        height:30px;
+        margin-top:10px;
+
+    }
+    #paypal+p{
+        margin-top:-5px
+    }
+
+
+
+/* <>>>>>>>>>>>>>>><<<<<<<<<<> */
+
+#sideBorder{
+    height:400px;
+    width:400px;
+    /* border :3px solid black; */
+
+    margin-left:60%;
+    margin-top:-39%
+}
+
+
+
+
+
+
+
+
+/* 
+
+#div22{
+    width:300;
+   height:30px;
+ 
+   border:1px solid rgb(36, 3, 3);
+   background-color: rgb(121, 25, 230);
+
+} */
+#pay{
+    width:90%;
+    height:300px;
+
+   padding:10px;
+    /* border:1px solid #999999; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  
+}
+#mybill{
+    width:100%;
+    height:34px;
+    border:0.1px solid  #999999;
+   border-top:0ch;
+
+   border-left: 0ch;
+   border-right: 0ch;
+   border-bottom: 0ch;
+}
+#order{
+    width:99%;
+    height:94px;
+    border:1px solid#999999;
+    border-right: 0ch;
+    padding:3px;
+    border-left: 0ch;
+}
+
+.grand{
+    display:flex;
+    justify-content:space-between;
+    padding:5px;
+    /* border:2px solid blue; */
+}
+
+button{
+    width:80%;
+    margin-left:40px;
+    margin-top:10px;
+    border: 0ch;
+    background-color: #FFDA00;
+    padding:10px;
+   
+}
+
