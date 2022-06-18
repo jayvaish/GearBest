@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>superdeal</title>
+</head>
+<style>
+
+    #container{
+        height:100px ;
+        width:1200px ;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        margin-left: 155px;
+    }
+     /* #container>div{
+        border: 1px solid black
+
+    
+    }  */
+    img{
+        height:70px ;
+        width:200px ;
+        margin-top: 7px;
+        margin-left: 5px;
+    }
+    #search{
+        margin-left: 500px;
+        margin-top: -50px;
+        /* justify-content: space-between; */
+    }
+    #data{
+        display: flex;
+        justify-content: end;
+        gap: 10px;
+        margin-top: -40px;
+    }
+    #cart{
+        display: grid;
+        grid-template-columns:300px 300px 300px 300px 300px  ;
+        grid-template-rows: repeat(12,380px);
+        gap: 10px;
+        margin-top: 20px;
+    }
+    #cart>div{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    #cart>div>img{
+        height: 200px;
+        width: 200px;
+        margin-left: 40px;
+    }
+    #side{
+        height: 50px;
+        width: 50px;
+        
+    }
+    #cart>div>p{
+        margin-left: 10px;
+    }
+    h2{
+        margin-left: 10px;
+        color: red;
+    }
+</style>
+    
+<body>
+
+    <div id="container">
+        <div id="img">
+            <img src="https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png">
+            <div id="search">
+                <label for="site-search"></label>
+<input type="search" id="site-search" name="q">
+
+<button>Search</button>
+<div id="data">
+    <p>
+        <a href="sign.html">Sign In</p></a>
+      <P>
+        <p>
+            <a href="Favorites.html">Favorites</p></a>
+          <P>
+            <p>
+                <a href="Cart.html">Cart</p></a>
+              <P>
+</div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="cart">
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6866331933228593152/16509/goods_thumb_220-v1/864bc2350912.jpg">
+            <p>Alfawise C50 Mini Wireless smart
+                Laser Engraver Cutter...
+            </p>
+            <h2>$89.99</h2>
+            <p>beautiful life store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6882688590640508928/16448/goods_thumb_220-v3/6f9c892c7ec6.jpg">
+            <p>5in1 CO2 Mwter Digital
+                Temperature Humidity Tester...
+            </p>
+            <h2>$29.99</h2>
+            <p>onlyyou Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6866325577285169152/16414/goods_thumb_220-v1/84ef605c8a50.jpg">
+            <p>USLION Magnetic USB Cable For
+                iphone 12 11 Xiaomi Samsung...
+            </p>
+            <h2>$4.05</h2>
+            <p>Day Day Up Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16507/goods_thumb_220-v1/06cdb7fd6f04.jpg">
+            <p>Hagibis Wireless
+                HdMIcompatible Video...
+            </p>
+            <h2>$108.29</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16420/goods_thumb_220-v5/93f96987f87e.jpg">
+            <p>Robot Vaccum Cleaner
+            </p>
+            <h2>$259.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/16040/goods_thumb_220-v1/b2ea0b352162.jpg">
+            <p>Electric Toothbrush
+            </p>
+            <h2>$30.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/desc/6878032086314446848/16537/goods_thumb_220-v1/2c08cda7120f.jpg">
+            <p>New-High End Watch
+            </p>
+            <h2>$30.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6880475736935952384/16419/goods_thumb_220-v1/404af76fa24b.jpg">
+            <p>Air Purifire
+            </p>
+            <h2>$160.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6880475736935952384/16418/goods_thumb_220-v1/67e279c03863.jpg">
+            <p>Smart Mopping Robot
+            </p>
+            <h2>$285.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6507287161137004544/16524/goods_thumb_220-v3/53f9433a0f5e.jpg">
+            <p>Smart Phone
+            </p>
+            <h2>$663.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6507287161137004544/16421/goods_thumb_220-v4/ba3d27fe5efc.jpg">
+            <p>GPS Watch
+            </p>
+            <h2>$663.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6507287161137004544/16419/goods_thumb_220-v1/3d3acc55a497.jpg">
+            <p>Smart Phone
+            </p>
+            <h2>$789.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6882688590640508928/16478/goods_thumb_220-v1/81fb2f850e1c.jpg">
+            <p>Big Screen Smart Watch
+            </p>
+            <h2>$16.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6882688590640508928/16445/goods_thumb_220-v1/af8dc4077d50.jpg">
+            <p>Big New Smart Watch
+            </p>
+            <h2>$54.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6866331803104505856/16505/goods_thumb_220-v3/d3e892b83c94.jpg">
+            <p>Camping Tent
+            </p>
+            <h2>$39.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6866331933228593152/16509/goods_thumb_220-v1/864bc2350912.jpg">
+            <p>Alfawise C50 Mini Wireless smart
+                Laser Engraver Cutter...
+            </p>
+            <h2>$89.99</h2>
+            <p>beautiful life store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6882688590640508928/16478/goods_thumb_220-v1/81fb2f850e1c.jpg">
+            <p>Big Screen Smart Watch
+            </p>
+            <h2>$16.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6866325577285169152/16414/goods_thumb_220-v1/84ef605c8a50.jpg">
+            <p>USLION Magnetic USB Cable For
+                iphone 12 11 Xiaomi Samsung...
+            </p>
+            <h2>$4.05</h2>
+            <p>Day Day Up Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6507287161137004544/16419/goods_thumb_220-v1/3d3acc55a497.jpg">
+            <p>Smart Phone
+            </p>
+            <h2>$789.92</h2>
+            <p>Top Rate Store</p>
+
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6882688590640508928/16478/goods_thumb_220-v1/81fb2f850e1c.jpg">
+            <p>Big Screen Smart Watch
+            </p>
+            <h2>$16.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6880475736935952384/16418/goods_thumb_220-v1/67e279c03863.jpg">
+            <p>Smart Mopping Robot
+            </p>
+            <h2>$285.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6507287161137004544/16421/goods_thumb_220-v4/ba3d27fe5efc.jpg">
+            <p>GPS Watch
+            </p>
+            <h2>$663.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div><img src="https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16507/goods_thumb_220-v1/06cdb7fd6f04.jpg">
+            <p>Hagibis Wireless
+                HdMIcompatible Video...
+            </p>
+            <h2>$108.29</h2>
+            <p>Top Rate Store</p></div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6882688590640508928/16445/goods_thumb_220-v1/af8dc4077d50.jpg">
+            <p>Big New Smart Watch
+            </p>
+            <h2>$54.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16507/goods_thumb_220-v1/06cdb7fd6f04.jpg">
+            <p>Hagibis Wireless
+                HdMIcompatible Video...
+            </p>
+            <h2>$108.29</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div> <img src="https://gloimg.gbtcdn.com/soa/gb/store/6866331803104505856/16505/goods_thumb_220-v3/d3e892b83c94.jpg">
+            <p>Camping Tent
+            </p>
+            <h2>$39.92</h2>
+            <p>Top Rate Store</p></div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6880475736935952384/16418/goods_thumb_220-v1/67e279c03863.jpg">
+            <p>Smart Mopping Robot
+            </p>
+            <h2>$285.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div><img src="https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16507/goods_thumb_220-v1/06cdb7fd6f04.jpg">
+            <p>Hagibis Wireless
+                HdMIcompatible Video...
+            </p>
+            <h2>$108.29</h2>
+            <p>Top Rate Store</p></div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6507287161137004544/16421/goods_thumb_220-v4/ba3d27fe5efc.jpg">
+            <p>GPS Watch
+            </p>
+            <h2>$663.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16507/goods_thumb_220-v1/06cdb7fd6f04.jpg">
+            <p>Hagibis Wireless
+                HdMIcompatible Video...
+            </p>
+            <h2>$108.29</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6880475736935952384/16418/goods_thumb_220-v1/67e279c03863.jpg">
+            <p>Smart Mopping Robot
+            </p>
+            <h2>$285.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div> <img src="https://gloimg.gbtcdn.com/soa/gb/store/6866331803104505856/16505/goods_thumb_220-v3/d3e892b83c94.jpg">
+            <p>Camping Tent
+            </p>
+            <h2>$39.92</h2>
+            <p>Top Rate Store</p></div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6507287161137004544/16421/goods_thumb_220-v4/ba3d27fe5efc.jpg">
+            <p>GPS Watch
+            </p>
+            <h2>$663.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/16040/goods_thumb_220-v1/b2ea0b352162.jpg">
+            <p>Electric Toothbrush
+            </p>
+            <h2>$30.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6882688590640508928/16445/goods_thumb_220-v1/af8dc4077d50.jpg">
+            <p>Big New Smart Watch
+            </p>
+            <h2>$54.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16507/goods_thumb_220-v1/06cdb7fd6f04.jpg">
+            <p>Hagibis Wireless
+                HdMIcompatible Video...
+            </p>
+            <h2>$108.29</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/16040/goods_thumb_220-v1/b2ea0b352162.jpg">
+            <p>Electric Toothbrush
+            </p>
+            <h2>$30.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6866331803104505856/16505/goods_thumb_220-v3/d3e892b83c94.jpg">
+            <p>Camping Tent
+            </p>
+            <h2>$39.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6507287161137004544/16421/goods_thumb_220-v4/ba3d27fe5efc.jpg">
+            <p>GPS Watch
+            </p>
+            <h2>$663.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16507/goods_thumb_220-v1/06cdb7fd6f04.jpg">
+            <p>Hagibis Wireless
+                HdMIcompatible Video...
+            </p>
+            <h2>$108.29</h2>
+            <p>Top Rate Store</p>
+
+        </div>
+        <div><img src="https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16507/goods_thumb_220-v1/06cdb7fd6f04.jpg">
+            <p>Hagibis Wireless
+                HdMIcompatible Video...
+            </p>
+            <h2>$108.29</h2>
+            <p>Top Rate Store</p></div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16507/goods_thumb_220-v1/06cdb7fd6f04.jpg">
+            <p>Hagibis Wireless
+                HdMIcompatible Video...
+            </p>
+            <h2>$108.29</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6880475736935952384/16418/goods_thumb_220-v1/67e279c03863.jpg">
+            <p>Smart Mopping Robot
+            </p>
+            <h2>$285.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16507/goods_thumb_220-v1/06cdb7fd6f04.jpg">
+            <p>Hagibis Wireless
+                HdMIcompatible Video...
+            </p>
+            <h2>$108.29</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div><img src="https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16507/goods_thumb_220-v1/06cdb7fd6f04.jpg">
+            <p>Hagibis Wireless
+                HdMIcompatible Video...
+            </p>
+            <h2>$108.29</h2>
+            <p>Top Rate Store</p></div>
+        <div><img src="https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16507/goods_thumb_220-v1/06cdb7fd6f04.jpg">
+            <p>Hagibis Wireless
+                HdMIcompatible Video...
+            </p>
+            <h2>$108.29</h2>
+            <p>Top Rate Store</p></div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6880475736935952384/16418/goods_thumb_220-v1/67e279c03863.jpg">
+            <p>Smart Mopping Robot
+            </p>
+            <h2>$285.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div><img src="https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16507/goods_thumb_220-v1/06cdb7fd6f04.jpg">
+            <p>Hagibis Wireless
+                HdMIcompatible Video...
+            </p>
+            <h2>$108.29</h2>
+            <p>Top Rate Store</p></div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6882688590640508928/16445/goods_thumb_220-v1/af8dc4077d50.jpg">
+            <p>Big New Smart Watch
+            </p>
+            <h2>$54.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16507/goods_thumb_220-v1/06cdb7fd6f04.jpg">
+            <p>Hagibis Wireless
+                HdMIcompatible Video...
+            </p>
+            <h2>$108.29</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div> <img src="https://gloimg.gbtcdn.com/soa/gb/item/6866331933228593152/16509/goods_thumb_220-v1/864bc2350912.jpg">
+            <p>Alfawise C50 Mini Wireless smart
+                Laser Engraver Cutter...
+            </p>
+            <h2>$89.99</h2>
+            <p>beautiful life store</p></div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6880475736935952384/16418/goods_thumb_220-v1/67e279c03863.jpg">
+            <p>Smart Mopping Robot
+            </p>
+            <h2>$285.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div> <img src="https://gloimg.gbtcdn.com/soa/gb/item/6866325577285169152/16414/goods_thumb_220-v1/84ef605c8a50.jpg">
+            <p>USLION Magnetic USB Cable For
+                iphone 12 11 Xiaomi Samsung...
+            </p>
+            <h2>$4.05</h2>
+            <p>Day Day Up Store</p></div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6882688590640508928/16445/goods_thumb_220-v1/af8dc4077d50.jpg">
+            <p>Big New Smart Watch
+            </p>
+            <h2>$54.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16507/goods_thumb_220-v1/06cdb7fd6f04.jpg">
+            <p>Hagibis Wireless
+                HdMIcompatible Video...
+            </p>
+            <h2>$108.29</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/store/6866331803104505856/16505/goods_thumb_220-v3/d3e892b83c94.jpg">
+            <p>Camping Tent
+            </p>
+            <h2>$39.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div> <img src="https://gloimg.gbtcdn.com/soa/gb/item/6866331933228593152/16509/goods_thumb_220-v1/864bc2350912.jpg">
+            <p>Alfawise C50 Mini Wireless smart
+                Laser Engraver Cutter...
+            </p>
+            <h2>$89.99</h2>
+            <p>beautiful life store</p></div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6880475736935952384/16418/goods_thumb_220-v1/67e279c03863.jpg">
+            <p>Smart Mopping Robot
+            </p>
+            <h2>$285.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6866325577285169152/16414/goods_thumb_220-v1/84ef605c8a50.jpg">
+            <p>USLION Magnetic USB Cable For
+                iphone 12 11 Xiaomi Samsung...
+            </p>
+            <h2>$4.05</h2>
+            <p>Day Day Up Store</p>
+        </div>
+        <div>
+            <img src="https://gloimg.gbtcdn.com/soa/gb/item/6882688590640508928/16445/goods_thumb_220-v1/af8dc4077d50.jpg">
+            <p>Big New Smart Watch
+            </p>
+            <h2>$54.92</h2>
+            <p>Top Rate Store</p>
+        </div>
+    </div>
+
+    
+</body>
+</html>
