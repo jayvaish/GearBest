@@ -1,5 +1,5 @@
 #mainDiv{
-    margin-top: 10%;
+    margin-top: 4px;
     border: 1px solid red;
     height: 600px;
 }
@@ -50,6 +50,7 @@ gap: 30px;
 #proDetils>h2{
     width: 90%;
     margin-top: -2px;
+    color:black;
 }
 #superP{
     font-size: 30px;
