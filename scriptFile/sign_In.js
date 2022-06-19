@@ -31,8 +31,7 @@
             else if ((checkUser.userEmail==checkEmail) && (checkUser.createPass==checkPassword)) 
             {
                 alert("Sign In seccessfull")
-                window.location.href="landing.html"
-                document.querySelector(".SignInP").innerHTML=`dffdfa` 
+                // window.location.href="landing.html"
             } 
             
 }

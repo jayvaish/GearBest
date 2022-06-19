@@ -35,7 +35,7 @@ function mainNavbar() {
 
  <div class="logoDiv">
  <a href="landing.html"><img src="https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png" alt="logo image"></a></div>
-    <div class="searchDiv"><p>All</p> 
+    <div class="searchDiv"><p >All</p> 
         <select  id="extra">
   <option value=""></option>
   <option value="">MARKETPLACE</option>
@@ -60,7 +60,7 @@ function mainNavbar() {
     <div class="cataDiv">
         <h3>Category</h3>
     </div>
-<a class="eploreTags" href=""><p>SUPER DEALS </p></a>
+<a class="eploreTags" href="superdeal.html"><p>SUPER DEALS </p></a>
 <a class="eploreTags" href=""><p>APP ONLY</p></a>
 <a class="eploreTags" href=""><p>NEW ARRIVALS</p></a>
 </div>
@@ -68,3 +68,4 @@ function mainNavbar() {
 }
 
 export default mainNavbar()
+

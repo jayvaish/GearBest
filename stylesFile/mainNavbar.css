@@ -7,6 +7,7 @@
 .otherLinkDiv{
     padding: 10px;
     width: 95%;
+    margin-bottom: -20px;
     /* border: 1px solid orange; */
     display: flex;
     justify-content: flex-end;
@@ -86,10 +87,9 @@ margin-left: 50px;
 text-decoration: none;
 }
 .linksIcon>i{
-color: rgb(78, 64, 64);
+color: black;
 font-size: 25px;
 margin-top: -3px;
-/* margin-left: -26px; */
 }
 .SignInP>i{
 color: black;
@@ -139,4 +139,10 @@ font-weight: bold;
 margin-left: 115px;
 color: black;
 cursor: pointer;
+}
+
+.withApp{
+    width: 20px;
+    border: none;
+    outline: none;
 }
