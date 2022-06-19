@@ -52,8 +52,8 @@ function mainNavbar() {
 
     <div class="linkDiv">
         <a href="register.html"><p class="SignInP"><i class="fa-regular fa-user"></i>Sign in</p></a>
-        <a href=""><p class="linksIcon"><i class="fa-regular fa-heart"></i>Favorites</p></a>
-        <a href=""><p class="linksIcon"><i class="fa-solid fa-cart-shopping"></i>Cart</p></a>
+        <a href="#"><p class="linksIcon"><i class="fa-regular fa-heart"></i>Favorites</p></a>
+        <a href="placeorder.html"><p class="linksIcon"><i class="fa-solid fa-cart-shopping"></i>Cart</p></a>
     </div>
 </div>
 <div class="expolorDiv">

@@ -32,7 +32,7 @@ let proArr=[]
 function userData(){
 
   var usersObj={
-    name:"2022 New Smartphone 7.3 Inch MIX4 72MP Camera Unlock Mobile Phones Celular Cellphone Qualcomm 888+ - Black 4GB 128GB",
+    proname:"2022 New Smartphone 7.3 Inch MIX4 72MP Camera Unlock Mobile Phones Celular Cellphone Qualcomm 888+ - Black 4GB 128GB",
     Image:"https://gloimg.gbtcdn.com/soa/gb/item/6883820374342168576/16488/goods_img_big-v3/d238ad6a3d2a.jpg",
     netPrice: 114.00,
     color :"Black",
@@ -110,4 +110,6 @@ var suggestPro = [
 // console.log(image,title,proPrice,strPric,disPrice);
 box.append(image,title,proPrice,strPric)
 container.append(box)
+
+
 });
