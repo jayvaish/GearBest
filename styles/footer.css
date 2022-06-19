@@ -1,321 +1,328 @@
 *{
-margin: 0px;
-padding: 0px;
-}
-body{
-    color: #666;
-    line-height: 1;
-    min-width: 1200px;
-}
-#big_footer{
-    height: auto;
-    width:100%;
-    margin-top: 709%;
-    /* border: 1px solid black; */
-    background-color: #fafafa;
-    overflow: hidden;
-}
-#mobile_accesory{
-    /* border: 1px solid red; */
-    /* height: 150px; */
-    padding: 50px 0;
-    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+    }
+    body{
+        color: #666;
+        line-height: 1;
+        min-width: 1200px;
+    }
+    .main_footer{
+        margin-top: 50px;
+    }
+    #big_footer{
+        height: auto;
+        width:100%;
+        /* border: 1px solid black; */
+        background-color: #fafafa;
+        overflow: hidden;
+    }
+    #mobile_accesory{
+        /* border: 1px solid red; */
+        /* height: 150px; */
+        padding: 50px 0;
+        background-color: #fff;
+        
+    }
+    #hotkey{
+        display: table;
+        /* border: 1px solid blue; */
+        margin:auto;
+        width: 1190px;
+        /* height: 57px; */
+    }
+    #popular{
+        display: inline-block;
+        font-size: 14px;
+        color:#000;
+        white-space: nowrap;
+    }
+    #all{
+        display: table-cell;
+        line-height: 24px;
+        list-style: none;
+        vertical-align: baseline;
+        width: 100%;
+    }
+    li{
+        display: inline-block;
+        vertical-align: baseline;
+        margin-left: 30px;
+        font-size: 50px;
     
-}
-#hotkey{
-    display: table;
-    /* border: 1px solid blue; */
-    margin:auto;
-    width: 1190px;
-    /* height: 57px; */
-}
-#popular{
-    display: inline-block;
-    font-size: 14px;
-    color:#000;
-    white-space: nowrap;
-}
-#all{
-    display: table-cell;
-    line-height: 24px;
-    list-style: none;
-    vertical-align: baseline;
-    width: 100%;
-}
-li{
-    display: inline-block;
-    vertical-align: baseline;
-    margin-left: 30px;
-    font-size: 50px;
-
-}
-/* a{
-    text-decoration: none;
-    color: black
-   
-} */
-.same{
-    font-size: 14px;
-    color: #000;
-    background-color: rgba(0,0,0,0);
-    margin-left: 20px;
-}
-a:hover{
-    color: grey;
-}
-#products{
-    /* border: 1px solid black; */
-    margin: auto;
-    height: 130px;
-    display: flex;
-    background-color:white;
-    margin-top: 60px;
-
-}
-.gearimg{
-    height: 40px;
-    width: 100%;
-    margin-top: 20px;
-}
-/* p{
-    font-size: 14px;
-    text-align: center;
-   margin-top:50px;
-   color: black;
-   font-weight: 800;
-} */
-
-.quality{
-    text-align: center;
-    margin-top: 10px;
-    color: black;
-    font-weight: 900;
-    font-size: 15px;
-}
-.total{
-    font-size: 12px;
-    text-align: center;
-    margin-top: 5px;
-    line-height: 12px;
-}
-#para{
-    margin-top: 10px;
-}
-.fa-regular{
-    font-size: 30px;
-    color: black;
-    margin:20px 0px 0px 70px;
-}
-.fa-brands{
-   color: black;
-   /* margin: 0px 0px 0px 70px; */
-   font-size: 30px;
-   margin-top: 20px;
-   margin-left: 12px;
-
-}
-.products{
-    /* border: 1px solid red; */
-    height: 100%;
-    width: 15%;
-    margin: auto;
-}
-.same_margins{
-    margin-top: 50px;
-}
-.footer_logo{
-    padding: 0 70px;
-    width: 200px;
-    text-align: center;
-    vertical-align: middle;
-}
-.footer_logo_image{
-    margin: 10px auto;
-    max-width: 200px;
-}
-/* img{
-    border-style: none;
-} */
-#footer_logo_text{
-    color: #000;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 18px;
-    margin-left: 90px;
-}
-
-#footer_subs{
-    margin-top: 50px;
-   
-    /* border :1px solid black; */
-    height: 44px;
-}
-
-
-/* for center all the things */
-.center{
-    margin: auto;
-    width: 1175px;
-}
-.footerSubs:after {
-    /* content: ""; */
-    display: block;
-    clear: both;
-}
-
-
-/* for search button */
-.footer_subscribe{
-    float: left;
-    width: 615px;
-}
-.footer_center{
-    margin: auto;
-    width: 1175px;
-}
-#search{
-    margin-left: -1px;
-    width: 121px;
-    height: 40px;
-    /* border: 1px solid #666; */
-    color: #fff;
-    font-size: 14px;
-    cursor: pointer;
-outline: none;
-    width: 300px;
-}
-
-/* subscribe button */
-#subscribe{
-    background: black;
-    margin-left: -4px;
-    width: 121px;
-    height: 44px;
-    border: none;
-    color: #fff;
-    font-size: 14px;
-    cursor: pointer;
-
-}
-
-.footer_label{
-    margin-right: 10px;
-    font-weight: 700;
-    font-size: 14px;
-}
-#subscribe:hover{
-    background-color: grey;
-}
-/* social-sites */
-#social{   
-    float: right;
-   width: 560px;
-    text-align: right;  
-}
-/* anchor tags of social-sites */
-
-.footer_social_sites{
-    margin-left: 15px;
-    width: 32px;
-    height: 32px;
-    line-height: 32px;
-    /* background-color: #464646; */
-    /* color: #fff; */
-    text-align: center;
-    /* border-radius: 50%; */
-}
-.fa-facebook{
-   
-    margin-top: 10px;
-}
-.social-all{
-    font-size: 25px;
-}
-
-
-/* end links */
-.footer_links{
-    padding: 50px 30px;
-    /* border: 1px solid black; */
-    margin-left: 28px;
-   
-}
-.footer_links_cols{
-display: inline-block;
-vertical-align: top;
-margin-right: 85px;
-width: 170px;
-display: inline-block;
-}
-.footer_links_colstitle{
-    font-weight: 700;
-    padding-bottom: 10px;
-    color: black;
-    font-size: 14px;
-}
-
-.footer_links>a, body, dd, dl, dt, h1, h2, h3, h4, h5, li, p, td, ul {
-    padding: 0;
-    margin: 0;
-}
-.footer_links_all{
-    line-height: 20px;
-    font-size: 12px;
-    color: #666;
-}
-
-/* download from play store */
-#play_store{
+    }
+    a{
+        text-decoration: none;
+        color: black
+        /* background-color : rgba(0,0,0,0); */
+       
+    }
+    .same{
+        font-size: 14px;
+        color: #000;
+        background-color: rgba(0,0,0,0);
+        margin-left: 20px;
+    }
+    a:hover{
+        color: grey;
+    }
+    #products{
+        /* border: 1px solid black; */
+        margin: auto;
+        height: 130px;
+        display: flex;
+        background-color:white;
+        margin-top: 60px;
+    
+    }
+    .gearimg{
+        height: 40px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    p{
+        font-size: 14px;
+        text-align: center;
+       margin-top:50px;
+       color: black;
+       font-weight: 800;
+    }
+    
+    .quality{
+        text-align: center;
+        margin-top: 10px;
+        color: black;
+        font-weight: 900;
+        font-size: 15px;
+    }
+    .total{
+        font-size: 12px;
+        text-align: center;
+        margin-top: 5px;
+        line-height: 12px;
+    }
+    #para{
+        margin-top: 10px;
+    }
+    .fa-regular{
+        font-size: 30px;
+        color: black;
+        margin:20px 0px 0px 70px;
+    }
+    .fa-brands{
+       color: black;
+       /* margin: 0px 0px 0px 70px; */
+       font-size: 30px;
+       margin-top: 20px;
+       margin-left: 12px;
+    
+    }
+    .products{
+        /* border: 1px solid red; */
+        height: 100%;
+        width: 15%;
+        margin: auto;
+    }
+    .same_margins{
+        margin-top: 50px;
+    }
+    .footer_logo{
+        padding: 0 70px;
+        width: 200px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .footer_logo_image{
+        margin: 10px auto;
+        max-width: 200px;
+    }
+    img{
+        border-style: none;
+    }
+    #footer_logo_text{
+        color: #000;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+        margin-left: 90px;
+    }
+    .footer_quality_item{
+        /* border: 1px solid red; */
+    }
+    #footer_subs{
+        margin-top: 50px;
+       
+        /* border :1px solid black; */
+        height: 44px;
+    }
+    
+    
+    /* for center all the things */
+    .center{
+        margin: auto;
+        width: 1175px;
+    }
+    .footerSubs:after {
+        /* content: ""; */
+        display: block;
+        clear: both;
+    }
+    
+    
+    /* for search button */
+    .footer_subscribe{
+        float: left;
+        width: 615px;
+    }
+    .footer_center{
+        margin: auto;
+        width: 1175px;
+    }
+    #search{
+        margin-left: -1px;
+        width: 121px;
+        height: 40px;
+        /* border: 1px solid #666; */
+        color: #fff;
+        font-size: 14px;
+        cursor: pointer;
+    outline: none;
+        width: 300px;
+    }
+    
+    /* subscribe button */
+    #subscribe{
+        background: black;
+        margin-left: -4px;
+        width: 121px;
+        height: 44px;
+        border: none;
+        color: #fff;
+        font-size: 14px;
+        cursor: pointer;
+    
+    }
+    
+    .footer_label{
+        margin-right: 10px;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    #subscribe:hover{
+        background-color: grey;
+    }
+    /* social-sites */
+    #social{
+        float: right;
+       
+       width: 550px;
+        text-align: right;
+        
+    }
+    /* anchor tags of social-sites */
+    
+    .footer_social_sites{
+        margin-left: 15px;
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        /* background-color: #464646; */
+        /* color: #fff; */
+        text-align: center;
+        /* border-radius: 50%; */
+    }
+    .fa-facebook{
+       
+        margin-top: 10px;
+    }
+    .social-all{
+        font-size: 25px;
+    }
+    
+    
+    /* end links */
+    .footer_links{
+        padding: 50px 30px;
+        /* border: 1px solid black; */
+        margin-left: 28px;
+       
+    }
+    .footer_links_cols{
     display: inline-block;
     vertical-align: top;
-    min-height: 140px;
-}
-#app_download_panel{
-    width: 240px;
-}
-.app_download_title{
-    color: black;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    margin: 5px 0;
-}
-#companies{
-    /* border: 1px solid greenyellow; */
-    height: auto;
-    margin: auto;
-    width: 90%;
-    text-align: center;
-}
-.company_center{
-    text-align: center;
-    height: 30px;
-    width: 40px; 
-    margin-left: 10px;
-    margin-top: 20px;
-}
-
-.alag{
-    height: 40px;
-    width: 150px;
-    margin-top: 20px;
-}
-.slag{
-    height: 40px;
-    width: 100px;
-    margin-top: 20px;
-}
-.copywrite{
-    height: 50px;
-    background-color: black;
-    width: 100%;
-    margin-top: 50px;
-    text-align: center;
-    color: white;
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
-}
-/* h3{
-    margin-top: 20px;
-} */
+    margin-right: 85px;
+    width: 170px;
+    display: inline-block;
+    }
+    .footer_links_colstitle{
+        font-weight: 700;
+        padding-bottom: 10px;
+        color: black;
+        font-size: 14px;
+    }
+    
+    .footer_links>a, body, dd, dl, dt, h1, h2, h3, h4, h5, li, p, td, ul {
+        padding: 0;
+        margin: 0;
+    }
+    .footer_links_all{
+        line-height: 20px;
+        font-size: 12px;
+        color: #666;
+    }
+    
+    /* download from play store */
+    #play_store{
+        display: inline-block;
+        vertical-align: top;
+        min-height: 140px;
+    }
+    #app_download_panel{
+        width: 240px;
+    }
+    .app_download_title{
+        color: black;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        margin: 5px 0;
+    }
+    #companies{
+        /* border: 1px solid greenyellow; */
+        height: auto;
+        margin: auto;
+        width: 90%;
+        text-align: center;
+    }
+    .company_center{
+        text-align: center;
+        height: 30px;
+        width: 40px; 
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    
+    .alag{
+        height: 40px;
+        width: 150px;
+        margin-top: 20px;
+    }
+    .slag{
+        height: 40px;
+        width: 100px;
+        margin-top: 20px;
+    }
+    .copywrite{
+        height: 50px;
+        background-color: black;
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+        color: white;
+        /* display: flex; */
+        /* justify-content: center;
+        align-items: center; */
+    }
+    h3{
+        margin-top: 20px;
+    }
