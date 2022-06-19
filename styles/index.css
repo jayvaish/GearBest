@@ -2,22 +2,6 @@
     margin: 0px;
     padding: 0px;
 }
-/* #big_category{
-display: flex;
-border: 1px solid red;
-width: 90%;
-margin: auto;
-
-} */
-#navbar{
-/* border: 1px solid black; */
-height: 50px;
-width: 90%;
-display: flex;
-margin: auto;
-margin-top: 70px;
-
-}
 .same{
     width: 20%;
     height: 30px;

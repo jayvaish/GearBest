@@ -304,14 +304,14 @@ display: flex;
         width:100%;
         margin-top: 10%;
         /* border: 1px solid black; */
-        background-color: #fafafa;
+        background: #f1f1f1;
         overflow: hidden;
     }
     #mobile_accesory{
         /* border: 1px solid red; */
         /* height: 150px; */
         padding: 50px 0;
-        background-color: #fff;
+        background: #f1f1f1;
         
     }
     #hotkey{
@@ -356,7 +356,7 @@ display: flex;
         margin: auto;
         height: 130px;
         display: flex;
-        background-color:white;
+        background: #f1f1f1;
         margin-top: 60px;
     
     }

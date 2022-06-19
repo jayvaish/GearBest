@@ -34,7 +34,7 @@ function mainNavbar() {
 <div class="navcontent">
 
  <div class="logoDiv">
- <a href="landing.html"><img src="https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png" alt="logo image"></a></div>
+ <a href="index.html"><img src="https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png" alt="logo image"></a></div>
     <div class="searchDiv"><p >All</p> 
         <select  id="extra">
   <option value=""></option>
@@ -53,7 +53,7 @@ function mainNavbar() {
     <div class="linkDiv">
         <a href="register.html"><p class="SignInP"><i class="fa-regular fa-user"></i>Sign in</p></a>
         <a href="#"><p class="linksIcon"><i class="fa-regular fa-heart"></i>Favorites</p></a>
-        <a href="index.html"><p class="linksIcon"><i class="fa-solid fa-cart-shopping"></i>Cart</p></a>
+        <a href="addForm.html"><p class="linksIcon"><i class="fa-solid fa-cart-shopping"></i>Cart</p></a>
     </div>
 </div>
 <div class="expolorDiv">
@@ -61,8 +61,8 @@ function mainNavbar() {
         <h3>Category</h3>
     </div>
 <a class="eploreTags" href="superdeal.html"><p>SUPER DEALS </p></a>
-<a class="eploreTags" href=""><p>APP ONLY</p></a>
-<a class="eploreTags" href=""><p>NEW ARRIVALS</p></a>
+<a class="eploreTags" href="app.html"><p>APP ONLY</p></a>
+<a class="eploreTags" href="superdeal.html"><p>NEW ARRIVALS</p></a>
 </div>
  </div>`
 }

@@ -30,8 +30,8 @@
             
             else if ((checkUser.userEmail==checkEmail) && (checkUser.createPass==checkPassword)) 
             {
-                alert("Sign In seccessfull")
-                window.location.href="landing.html"
+                alert("Sign In Successful")
+                window.location.href="index.html"
             } 
             
 }

@@ -81,7 +81,7 @@ else if(data.lname==""){
   else{
 // newdata.push(data);
 localStorage.setItem("userdata",JSON.stringify(data));
-alert("done")
+alert("Address is updated Successful")
 window.location.href="placeorder.html";
   }
 }

@@ -130,7 +130,7 @@
         <!-- //lastpart -->
 
         <div id="last">
-            <img src="https://uidesign.zafcdn.com/ZF/image/5376/20210408_gb_logos.png" alt="">
+            <a href="index.html"><img src="https://uidesign.zafcdn.com/ZF/image/5376/20210408_gb_logos.png" alt=""></a>
             <p>Every order you place with us is completely safe and secure.</p>
         </div>
 
@@ -158,12 +158,10 @@ Button.addEventListener('click', function() {
    else {
       alert('Payment Successful, Your Order is Placed');
       
-      window.location.href="landing.html"
+      window.location.href="index.html"
     }
 })
 
-        // let setdata=localStorage.setItem("formdata",JSON.stringify(getdata));
-        // let setdetails=localStorage.setItem("productdata",JSON.stringify(details));
 
 
         let replaceAdd=JSON.parse(localStorage.getItem("formdata"))
@@ -178,15 +176,6 @@ Button.addEventListener('click', function() {
         let finpyPric=document.querySelector(".price2").innerText=`$ ${gdPrice}`
         console.log(fingdPric);
         console.log(finpyPric);
-        // console.log(addRess);
-
-
-        // let price1=document.querySelector("#price1").
-        // let price2=document.querySelector("#price2")
-        // price2.innerText=$
-
-
-
 
 
 </script>

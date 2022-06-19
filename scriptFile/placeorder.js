@@ -147,7 +147,7 @@ document.getElementById("place").addEventListener("click",function(){
     window.location.href="finPayment.html"
     }
     // console.log(datastored);
-    alert("done")
+    alert("Order place Successful")
     datastored()
     
 });

@@ -41,7 +41,7 @@ function userData(){
   proArr.push(usersObj)
 //   console.log(proArr);
   localStorage.setItem("proDetail",JSON.stringify(proArr))
-  alert("Product added successfull")
+  alert("Product added Successful")
 }
 
 
