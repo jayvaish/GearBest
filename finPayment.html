@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./payment.css">
+    <link rel="stylesheet" href="./payment/payment.css">
 </head>
 
 <body>
@@ -73,7 +73,7 @@
                     <div class="bill">
                         <div><span>
                                 <h2>Billing Address</h2>
-                                <h4>Edit</h4>
+                                <a href="index.html"><h3>Edit</h3></a>
                             </span></div>
                         <p>Tollygunj,Kolkata,West Bengal, IN</p>
                         <p>We recommend that the billing address you are submitting is the same as your card issuer has
@@ -110,12 +110,12 @@
                     <!--<<<<<<<<<<<<<< Daynamic >>>>>>>>>>>>>>>>>>>>>>>-->
                     <div class="grand">
                         <p>Grand Total</p>
-                        <p id="price1">$116.00</p>
+                        <p class="price1">$116.00</p>
                     </div>
                     <!-- Daynamic<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>> -->
                     <div class="grand">
                         <p>Payable Amount</p>
-                        <p id="price2">$116.00</p>
+                        <p class="price2">$116.00</p>
                     </div>
                     <button id="btn" >PAY NOW</button>
                 </div>
@@ -145,19 +145,46 @@
 var Button = document.querySelector('#btn');
 
 Button.addEventListener('click', function() {
-   if(Form.cardNum.value.length != 16) alert('Please enter a valid card number');
-   else if(Form.cvv.value.length != 3) alert('Wrong CVV');
+   if(Form.cardNum.value.length != 16)
+   {
+
+       alert('Please enter a valid card number');
+   } 
+   else if(Form.cvv.value.length != 3) 
+   {
+
+       alert('Wrong CVV');
+   }
    else {
       alert('Payment Successful, Your Order is Placed');
       
-    //   window.location.href = 'index.html';
-   }
+      window.location.href="landing.html"
+    }
 })
 
-// let price1=document.querySelector("#price1")
-// price1.innerText=$
-// let price2=document.querySelector("#price2")
-// price2.innerText=$
+        // let setdata=localStorage.setItem("formdata",JSON.stringify(getdata));
+        // let setdetails=localStorage.setItem("productdata",JSON.stringify(details));
+
+
+        let replaceAdd=JSON.parse(localStorage.getItem("formdata"))
+        let replacePro=JSON.parse(localStorage.getItem("productdata"))
+        let gdPrice=JSON.parse(localStorage.getItem("gdPrice"))
+
+        let addRess=document.getElementById("order")
+        addRess.innerText=`Order no is :22061600982912050242 , Shipping address  ${replaceAdd.adress1},${replaceAdd.city},${replaceAdd.country}`
+        
+        
+        let fingdPric=document.querySelector(".price1").innerText=`$ ${gdPrice}`
+        let finpyPric=document.querySelector(".price2").innerText=`$ ${gdPrice}`
+        console.log(fingdPric);
+        console.log(finpyPric);
+        // console.log(addRess);
+
+
+        // let price1=document.querySelector("#price1").
+        // let price2=document.querySelector("#price2")
+        // price2.innerText=$
+
 
 
 

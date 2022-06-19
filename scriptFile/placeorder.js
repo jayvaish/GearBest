@@ -63,14 +63,14 @@ div2.setAttribute("class","d22");
 
 let div21=document.createElement("div");
 div21.innerText=ele.proname;
-div21.style.fontSize="22px";
+div21.style.fontSize="18px";
 
 div2.append(div21);
 
 // let div3=document.createElement("div");
 let div22=document.createElement("div");
 div22.style.color="blue";
-div22.style.fontSize="22px";
+div22.style.fontSize="18px";
 div22.innerText="Color"+" "+ ele.color;
 
 
@@ -105,12 +105,13 @@ let d=document.querySelector(".item_sub");
 d.innerHTML="Item Sub Total      :  " + "  "+" "+"  "+"<b>"+sum+"</b>";
 
 
-let o=document.querySelector(".item_sub1");
+var o=document.querySelector(".item_sub1");
 o.innerHTML="Shipping Cost  : "+" "+"<b>"+shipping_cost.ship+"</b>";
-let totalsum=sum+shipping_cost.ship;
+var totalsum=sum+shipping_cost.ship;
 
-
+var check=localStorage.setItem("gdPrice",JSON.stringify(totalsum))
 console.log(totalsum);
+
 let c=document.querySelector(".item_sub2");
 c.innerHTML="Grand Total : "+" "+totalsum;
 let con=document.getElementById("p33");
@@ -132,8 +133,24 @@ subtotal(details);
 
 
 
-document.getElementById("butn").addEventListener("click",reducesum);
+document.getElementById("place").addEventListener("click",function(){
 
+    // console.log("hello");
+    
+    let datastored=(totalsum)=>{
+    
+        let setdata=localStorage.setItem("formdata",JSON.stringify(getdata));
+        let setdetails=localStorage.setItem("productdata",JSON.stringify(details));
+    //  let grendTotl=localStorage.setItem("tlPrice",JSON.stringify(totalsum))
+    
+    // window.location.href="payment\payment.html"
+    window.location.href="finPayment.html"
+    }
+    // console.log(datastored);
+    alert("done")
+    datastored()
+    
+});
 
 
 
